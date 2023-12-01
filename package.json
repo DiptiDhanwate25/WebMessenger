@@ -1,0 +1,20 @@
+{
+  "name": "webmessenger",
+  "version": "1.0.0",
+  "description": "Web Chat Messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiptiDhanwate25/WebMessenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiptiDhanwate25/WebMessenger/issues"
+  },
+  "homepage": "https://github.com/DiptiDhanwate25/WebMessenger#readme"
+}
