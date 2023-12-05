@@ -1,4 +1,4 @@
-/* App.css */
+
 
 .app {
     display: flex;
@@ -10,16 +10,16 @@
   .chat-container {
     display: flex;
     justify-content: space-between;
-    width: 80%; /* Adjust width or use appropriate dimensions */
-    margin: auto; /* Center the chat container */
-    padding: 20px; /* Add padding around the chat container */
+    width: 80%; 
+    margin: auto; 
+    padding: 20px; 
   }
   
   .chat-section {
-    width: 45%; /* Adjust width or use appropriate dimensions */
-    border: 1px solid #ccc; /* Optional: Add border for visual separation */
-    padding: 10px; /* Add padding for better readability */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    width: 45%; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    overflow-y: auto;
   }
   
   /* Adjust message alignment */
