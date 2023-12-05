@@ -1,0 +1,39 @@
+/* App.css */
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .chat-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Adjust width or use appropriate dimensions */
+    margin: auto; /* Center the chat container */
+    padding: 20px; /* Add padding around the chat container */
+  }
+  
+  .chat-section {
+    width: 45%; /* Adjust width or use appropriate dimensions */
+    border: 1px solid #ccc; /* Optional: Add border for visual separation */
+    padding: 10px; /* Add padding for better readability */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  /* Adjust message alignment */
+  .chat-section .message {
+    margin-bottom: 10px;
+  }
+  
+  .chat-section.sent .message {
+    text-align: right;
+    color: blue; /* Example color for sent messages */
+  }
+  
+  .chat-section.received .message {
+    text-align: left;
+    color: green; /* Example color for received messages */
+  }
+  
