@@ -24,14 +24,14 @@ const App = () => {
     <div className="app">
       <div className="chat-container">
         <ChatSection
-          user="user1"
+          user="Nisha"
           messages={user1Messages}
-          sendMessage={(message) => sendMessage(message, 'user1')}
+          sendMessage={(message) => sendMessage(message,'Nisha')}
         />
         <ChatSection
-          user="user2"
+          user="Arav"
           messages={user2Messages}
-          sendMessage={(message) => sendMessage(message, 'user2')}
+          sendMessage={(message) => sendMessage(message,'Arav')}
         />
       </div>
     </div>
@@ -39,4 +39,6 @@ const App = () => {
 };
 
 export default App;
+
+
 

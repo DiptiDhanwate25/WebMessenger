@@ -60,3 +60,5 @@ const ChatSection = ({ user, messages, sendMessage }) => {
 };
 
 export default ChatSection;
+
+
