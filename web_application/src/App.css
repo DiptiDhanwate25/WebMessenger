@@ -29,11 +29,11 @@
   
   .chat-section.sent .message {
     text-align: right;
-    color: blue; /* Example color for sent messages */
+    color: rgb(226, 250, 140); /* Example color for sent messages */
   }
   
   .chat-section.received .message {
     text-align: left;
-    color: green; /* Example color for received messages */
+    color: rgb(41, 82, 126); /* Example color for received messages */
   }
   
