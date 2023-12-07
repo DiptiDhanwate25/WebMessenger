@@ -1,39 +1,14 @@
+.chat-section {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #0e0d0d;
+  padding: 10px;
+  overflow-y: scroll;
+  display:block;
+  flex-direction: column;
+  
+}
 
 
-.app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .chat-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%; 
-    margin: auto; 
-    padding: 20px; 
-  }
-  
-  .chat-section {
-    width: 45%; 
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    overflow-y: auto;
-  }
-  
-  /* Adjust message alignment */
-  .chat-section .message {
-    margin-bottom: 10px;
-  }
-  
-  .chat-section.sent .message {
-    text-align: right;
-    color: rgb(226, 250, 140); /* Example color for sent messages */
-  }
-  
-  .chat-section.received .message {
-    text-align: left;
-    color: rgb(41, 82, 126); /* Example color for received messages */
-  }
-  
+
+

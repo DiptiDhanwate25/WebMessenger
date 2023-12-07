@@ -1,0 +1,65 @@
+.chat-section {
+    width: 60%;
+    height: 100vh;
+    overflow-y: auto;
+    float: left;
+  }
+  
+  .message-list {
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+  }
+  
+  .message {
+    color: rgb(38, 30, 30);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: fit-content;
+  }
+  
+  .sent {
+    background-color: #DCF1D2;
+    align-self: flex-end;
+  }
+  
+  .received {
+    background-color: #ADD9B5;
+    align-self: flex-start;
+  }
+  
+  .message-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .message-input input {
+    flex-grow: 1;
+    margin-right: 8px;
+  }
+  .chat-section {
+    height: 100vh;
+    overflow-y: auto;
+    float: left;
+  }
+  
+  .user1 {
+    width: 50%;
+    height: 100%;
+    background-color:  #FEFFE6; /* Change the background color for User 1 */
+  }
+  
+  .user2 {
+    width: 50%;
+    height: 100%;
+    background-color: #FEFFE6; /* Change the background color for User 2 */
+  }
+  
+  .message-list {
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+  }
+  
+  /* Rest of your styles for message appearance */
+  
+  
