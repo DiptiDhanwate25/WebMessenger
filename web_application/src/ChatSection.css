@@ -19,12 +19,12 @@
   }
   
   .sent {
-    background-color: #DCF1D2;
+    background-color:#8e9cf8;
     align-self: flex-end;
   }
   
   .received {
-    background-color: #ADD9B5;
+    background-color: #cfd4fb;
     align-self: flex-start;
   }
   
@@ -46,13 +46,13 @@
   .user1 {
     width: 50%;
     height: 100%;
-    background-color:  #FEFFE6; /* Change the background color for User 1 */
+    background-color:  #FEFFE6; 
   }
   
   .user2 {
     width: 50%;
     height: 100%;
-    background-color: #FEFFE6; /* Change the background color for User 2 */
+    background-color: #FEFFE6; 
   }
   
   .message-list {
@@ -60,6 +60,6 @@
     overflow-y: auto;
   }
   
-  /* Rest of your styles for message appearance */
+  
   
   

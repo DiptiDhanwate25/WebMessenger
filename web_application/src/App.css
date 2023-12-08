@@ -1,9 +1,8 @@
 .chat-section {
   width: 50%;
-  height: 100%;
   border: 1px solid #0e0d0d;
   padding: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
   display:block;
   flex-direction: column;
   
