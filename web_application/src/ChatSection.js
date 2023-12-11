@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
 import { Form, Button, ListGroup } from 'react-bootstrap';
 import { useFormik } from 'formik';
-import './ChatSection.css'; // Import the CSS file
+import './ChatSection.css'; 
 
 const ChatSection = ({ user, messages, sendMessage, setUser }) => {
   const [username, setUsername] = useState(user);
@@ -40,23 +41,23 @@ const ChatSection = ({ user, messages, sendMessage, setUser }) => {
               key={index}
               className={`message ${message.sender === user ? 'sent' : 'received'}`}
             >
-              {`${message.sender}: ${message.text}`}
+              <div>{`${message.sender}: ${message.text}`}</div>
+              <span className="message-time">{message.time}</span>
             </ListGroup.Item>
           ))}
         </ListGroup>
       </div>
       <Form onSubmit={formik.handleSubmit}>
-      
         <Form.Group className="message-input">
           <div className="flex-grow-1 me-2">
-          <div>
-          <Form.Control
-          type="text"
-          placeholder="Enter Username"
-          value={username}
-          onChange={handleUsernameChange}
-           />
-          </div>
+            <div className='user-div'>
+              <Form.Control
+                type="text"
+                placeholder="Enter Username"
+                value={username}
+                onChange={handleUsernameChange}
+              />
+            </div>
             <Form.Control
               type="text"
               placeholder="Type a message..."
@@ -64,7 +65,6 @@ const ChatSection = ({ user, messages, sendMessage, setUser }) => {
               value={formik.values.messageText}
               onChange={formik.handleChange}
               isInvalid={formik.touched.messageText && !!formik.errors.messageText}
-              
             />
             <Form.Control.Feedback type="invalid">
               {formik.errors.messageText}
@@ -75,7 +75,6 @@ const ChatSection = ({ user, messages, sendMessage, setUser }) => {
           </Button>
         </Form.Group>
       </Form>
-      
     </div>
   );
 };
