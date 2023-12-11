@@ -9,12 +9,12 @@ const App = () => {
   const [user2, setUser2] = useState('');
 
   const sendMessage = (message, sender) => {
-    const currentTime = new Date().toLocaleTimeString(); // Get the current time
+    const currentTime = new Date().toLocaleTimeString(); 
 
     const newMessage = {
       text: message,
       sender,
-      time: currentTime, // Include the current time in the message
+      time: currentTime, 
     };
 
     if (sender === user1) {
@@ -50,7 +50,7 @@ const App = () => {
 
 
 
- 
+
 // import React, { useState } from 'react';
 // import ChatSection from './ChatSection';
 // import './App.css';

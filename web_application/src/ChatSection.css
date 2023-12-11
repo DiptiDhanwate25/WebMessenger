@@ -19,12 +19,12 @@
 }
 
 .sent {
-  background-color: #DCF1D2;
+  background-color: #cbe0fa;
   align-self: flex-end;
 }
 
 .received {
-  background-color: #ADD9B5;
+  background-color: #d7c8f9;
   align-self: flex-start;
 }
 
@@ -34,6 +34,7 @@
 }
 
 .message-input input {
+  background-color: #9cb5ed;
   flex-grow: 1;
   margin-right: 8px;
 }
@@ -43,17 +44,12 @@
   float: left;
 }
 
-.user1 {
+.user1 .user2 {
   width: 50%;
   height: 100%;
   background-color:  #FEFFE6; 
 }
 
-.user2 {
-  width: 50%;
-  height: 100%;
-  background-color: #FEFFE6; 
-}
 
 .message-list {
   max-height: calc(100vh - 140px);
